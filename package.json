@@ -1,0 +1,32 @@
+{
+    "author": "2Smart",
+    "dependencies": {
+        "homie-sdk": "github:2SmartCloud/2smart-standalone-homie-sdk",
+        "lodash": "^4.17.15",
+        "uuid": "^3.3.3"
+    },
+    "description": "",
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-webbylab": "^4.0.0",
+        "eslint-plugin-fetch": "0.0.1",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-more": "^0.3.2",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^7.7.0",
+        "nodemon": "1.19.4"
+    },
+    "main": "app.js",
+    "name": "2smart-heartbeat",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:2SmartCloud/2smart-standalone-heartbeat.git"
+    },
+    "scripts": {
+        "lint": "eslint lib app.js --ext js",
+        "nodemon": "nodemon -L app.js",
+        "start": "node app.js"
+    },
+    "version": "1.0.0"
+}
